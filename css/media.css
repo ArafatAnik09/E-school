@@ -1,0 +1,297 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+/*common start*/
+.c_padding {
+    padding-bottom: 80px;
+}
+
+/*header start*/
+header {
+    padding: 5px 0;
+}
+.logo {
+    width: 180px;
+}
+.menu ul li a {
+    padding: 0 10px 5px !important;
+}
+/*header end*/
+
+
+/*slider start*/
+.banner {
+    padding: 0 0 60px;
+}
+.b_text {
+    text-align: center;
+}
+.bh1 {
+    margin: 10px 0px 20px;
+    font-size: 30px;
+    line-height: 45px;
+}
+.bp2 {
+    margin: 0px 0px;
+    line-height: 25px;
+}
+.b_img {
+    margin: 0px 0px 30px;
+}
+/*slider end*/
+/*feature start*/
+
+.single_f {
+    margin: 30px 0 0;
+}
+.sf_img {
+    width: 56px;
+    height: 75px;
+}
+.sf_text h2 {
+    margin: 15px 0 0;
+    font-size: 20px;
+    line-height: 30px;
+}
+/*feature end*/
+
+/*online couse start*/
+.cmn_h1{
+    font-size: 25px;
+    line-height: 40px;
+}
+.s_course {
+        margin: 30px 0 0;
+        padding: 20px 15px 25px;
+}
+.sc_h2{
+    font-size: 20px;
+}
+.cs_left ul li img, .cs_right ul li img {
+    width: 20px;
+}
+.cs_left ul li span, .cs_right ul li span {
+    font-family: poppins-medium;
+    font-size: 15px;
+}
+/*online couse end*/
+
+/*Testimonial start*/
+.t_item {
+    margin-top: 30px;
+}
+.t_img {
+    padding: 0 50px 20px;
+}
+.t_text {
+    text-align: center;
+}
+
+/*footer top start*/
+.footer_top {
+    padding: 55px 0 20px;
+    text-align: center;
+}
+.ft_details {
+    margin-bottom: 35px;
+    padding-right: 0;
+}
+.ft_links {
+    margin-bottom: 35px;
+}
+
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+/*common start*/
+.c_padding {
+    padding-bottom: 60px;
+}
+
+/*header start*/
+header {
+    padding: 5px 0;
+}
+.menu ul li a {
+    padding: 0 10px 7px !important;
+}
+/*header end*/
+
+/*slider start*/
+.banner {
+    padding: 0 0 60px;
+}
+.b_text {
+    text-align: center;
+}
+.bh1 {
+    margin: 10px 70px 20px;
+    font-size: 35px;
+    line-height: 45px;
+}
+.bp2 {
+    margin: 0px 50px;
+    line-height: 25px;
+}
+.b_img {
+    margin: 0px 30px 30px;
+}
+/*slider end*/
+/*feature start*/
+
+.single_f {
+    margin: 30px 0 0;
+}
+.sf_img {
+    width: 56px;
+    height: 75px;
+}
+.sf_text h2 {
+    margin: 15px 0 0;
+    font-size: 20px;
+    line-height: 30px;
+}
+/*feature end*/
+
+/*online couse start*/
+.cmn_h1{
+    font-size: 25px;
+    line-height: 40px;
+}
+.s_course {
+        margin: 30px 50px 0;
+        padding: 20px 15px 25px;
+}
+.sc_h2{
+    font-size: 20px;
+}
+.cs_left ul li img, .cs_right ul li img {
+    width: 20px;
+}
+.cs_left ul li span, .cs_right ul li span {
+    font-family: poppins-medium;
+    font-size: 15px;
+}
+/*online couse end*/
+
+/*Testimonial start*/
+.t_item {
+    margin-top: 30px;
+}
+.t_img {
+    padding: 0 120px 20px;
+}
+.t_text {
+    text-align: center;
+}
+
+/*Testimonial start*/
+.t_item{
+    margin-top: 60px;
+}
+/*footer top start*/
+.footer_top {
+    text-align: center;
+}
+.ft_details {
+    margin-bottom: 35px;
+    padding-right: 70px;
+    padding-left: 70px;
+}
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+/*common start*/
+.c_padding {
+    padding-bottom: 80px;
+}
+/*header start*/
+header {
+    padding: 10px 0;
+}
+.menu ul li a {
+    padding: 0 10px 7px !important;
+}
+/*header end*/
+
+/*slider start*/
+.b_text {
+    text-align: center;
+}
+.bh1 {
+    margin: 10px 100px 20px;
+}
+.bp2 {
+    margin: 0px 105px;
+}
+.b_img {
+    margin: 0 50px 30px;
+}
+/*slider end*/
+
+/*online couse start*/
+.s_course {
+        margin: 30px 150px 0;
+}
+/*online couse end*/
+
+/*Testimonial start*/
+.t_item{
+    margin-top: 60px;
+}
+/*footer top start*/
+.footer_top {
+    text-align: center;
+}
+.ft_details {
+    margin-bottom: 35px;
+    padding-right: 80px;
+    padding-left: 80px;
+}
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+/*online couse start*/
+.s_course {
+    padding: 20px 15px 25px;
+}
+.cs_left ul li span, .cs_right ul li span {
+    font-size: 14px;
+}
+.cs_left ul li img, .cs_right ul li img {
+    width: 20px;
+}
+.cs_li:not(:last-child) {
+    margin-right: 0px;
+}
+
+
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+}
+
+/* Extra extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+
+/*banner start*/
+.bh1 {
+    margin: 10px 120px 20px 0;
+}
+/*banner end*/
+/*footer top start*/
+.ft_details {
+    padding-right: 130px;
+}
+
+}
